@@ -1,0 +1,105 @@
+{
+    "window.zoomLevel": 1,
+    "editor.lineNumbers": "relative",
+    "phpfmt.smart_linebreak_after_curly": false,
+    "phpfmt.passes": [
+        "AlignPHPCode"
+    ],
+    "phpfmt.exclude": [
+        "PSR2CurlyOpenNextLine"
+    ],
+    "vim.easymotion": true,
+    "vim.statusBarColorControl": true,
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "after": [
+                "<C-w>",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "r"
+            ],
+            "commands": [
+                "workbench.action.tasks.build"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.tasks.runTask",
+            ]
+        }
+    ],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    "editor.formatOnSave": true,
+    "standard.autoFixOnSave": true,
+    "csharp.referencesCodeLens.enabled": true,
+    "gitlens.gitExplorer.files.layout": "tree",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "breadcrumbs.enabled": true,
+    "cSpell.userWords": [
+        "actuals",
+        "antd",
+        "db",
+        "hodie",
+        "id",
+        "inno",
+        "larsson",
+        "signup",
+        "subreddit",
+        "subreddits",
+        "varchar",
+        "xunit"
+    ],
+    "editor.tabSize": 2,
+    "gitlens.views.repositories.files.layout": "tree",
+    "yaml.validate": true,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.showExitAlert": false
+}
