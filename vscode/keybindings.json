@@ -1,0 +1,148 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+.",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+/",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+cmd+r",
+    "command": "workbench.action.reloadWindow",
+    "when": "isDevelopment"
+  },
+  {
+    "key": "cmd+r",
+    "command": "-workbench.action.reloadWindow",
+    "when": "isDevelopment"
+  },
+  {
+    "key": "cmd+k",
+    "command": "workbench.action.quickOpenRecent"
+  },
+  {
+    "key": "cmd+n",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "cmd+m",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "f2",
+    "command": "editor.action.changeAll",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+f2",
+    "command": "-editor.action.changeAll",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+r",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "f2",
+    "command": "-editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+space",
+    "command": "toggleSuggestionDetails",
+    "when": "suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+space",
+    "command": "-toggleSuggestionDetails",
+    "when": "suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-toggleSuggestionDetails",
+    "when": "suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+m",
+    "command": "toggleSuggestionFocus",
+    "when": "suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+alt+space",
+    "command": "-toggleSuggestionFocus",
+    "when": "suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "vscode-harpoon.editorQuickPick"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "editor.action.referenceSearch.trigger"
+  },
+  {
+    "key": "cmd+down",
+    "command": "workbench.action.editor.nextChange",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "alt+f5",
+    "command": "-workbench.action.editor.nextChange",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "cmd+up",
+    "command": "workbench.action.compareEditor.previousChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "shift+alt+f5",
+    "command": "-workbench.action.compareEditor.previousChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "workbench.action.openRecent"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.openRecent"
+  }
+]

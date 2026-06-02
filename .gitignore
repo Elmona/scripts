@@ -1,0 +1,17 @@
+.DS_Store
+*.orig
+# SSH keys - never commit
+*.pem
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+# Claude runtime data (keep only config files)
+claude/history.jsonl
+claude/sessions/
+claude/projects/
+claude/file-history/
+claude/shell-snapshots/
+claude/paste-cache/
+# nvim runtime
+nvim/.git/

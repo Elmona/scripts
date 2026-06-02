@@ -1,0 +1,64 @@
+{
+  "permissions": {
+    "deny": [
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_drag",
+      "mcp__playwright__browser_file_upload",
+      "mcp__playwright__browser_hover",
+      "mcp__playwright__browser_fill_form",
+      "mcp__playwright__browser_select_option",
+      "mcp__playwright__browser_handle_dialog",
+      "mcp__playwright__browser_resize",
+      "mcp__playwright__browser_run_code",
+      "mcp__playwright__browser_evaluate",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_drag",
+      "mcp__plugin_playwright_playwright__browser_file_upload",
+      "mcp__plugin_playwright_playwright__browser_hover",
+      "mcp__plugin_playwright_playwright__browser_fill_form",
+      "mcp__plugin_playwright_playwright__browser_select_option",
+      "mcp__plugin_playwright_playwright__browser_handle_dialog",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "mcp__plugin_playwright_playwright__browser_run_code",
+      "mcp__plugin_playwright_playwright__browser_evaluate"
+    ],
+    "defaultMode": "auto"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "npx -y @owloops/claude-powerline@latest"
+  },
+  "enabledPlugins": {
+    "playwright@claude-plugins-official": true,
+    "agoy-frontend@local-plugins": true,
+    "agoy-backend@local-plugins": true,
+    "pr-review@local-plugins": true,
+    "claude-powerline@claude-powerline": true,
+    "caveman@caveman": true
+  },
+  "extraKnownMarketplaces": {
+    "local-plugins": {
+      "source": {
+        "source": "directory",
+        "path": "/Users/emil.n.larsson/.claude/plugins/local"
+      }
+    },
+    "claude-powerline": {
+      "source": {
+        "source": "github",
+        "repo": "Owloops/claude-powerline"
+      }
+    },
+    "caveman": {
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      }
+    }
+  },
+  "effortLevel": "medium",
+  "autoUpdatesChannel": "stable",
+  "voiceEnabled": true,
+  "editorMode": "vim",
+  "skipAutoPermissionPrompt": true
+}
